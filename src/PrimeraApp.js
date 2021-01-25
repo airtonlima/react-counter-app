@@ -17,7 +17,7 @@ const PrimeraApp = ({
 
             <h1>{ saludo }</h1>
             <p>{ subtitulo }</p>
-            <p>{ otra }</p>
+            {/* <p>{ otra }</p> */}
 
             <pre>{ JSON.stringify(obj, null, 3) }</pre>
             
@@ -28,7 +28,7 @@ const PrimeraApp = ({
 PrimeraApp.propTypes = {
     saludo: PropTypes.string.isRequired,
     subtitulo: PropTypes.string,
-    otra: PropTypes.number.isRequired
+    otra: PropTypes.number
 };
 
 PrimeraApp.defaultProps = {
